@@ -1575,7 +1575,7 @@ header .logo a {
 
 /** 
  * ===================================================================
- * 12. resume - (_layout.scss)
+ * resume - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
@@ -2109,76 +2109,10 @@ header .logo a {
 }
 
 
-/** 
- * ===================================================================
- * 16. stats - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#stats {
-	background: #407521;
-	padding-top: 7.2rem;
-	padding-bottom: 6rem;
-	text-align: center;
-}
-#stats .row {
-	max-width: 1440px;
-}
-#stats .stat {
-	border-left: 1px solid rgba(255, 255, 255, 0.12);
-	min-height: 17.4rem;
-}
-#stats .stat:first-child {
-	border: none;
-}
-#stats .icon-part i {
-	font-size: 4.8rem;
-	color: #000000;
-}
-#stats .stat-count {
-	color: #FFFFFF;
-	font-size: 3.6rem;
-	margin-top: 1.2rem;
-	margin-bottom: 0;
-	font-family: "poppins-medium", sans-serif;
-	color: white;
-}
-#stats .stat-title {
-	color: rgba(255, 255, 255, 0.5);
-}
-
-/**
- * responsive:
- * stats
- * -------------------------------------------------------------------
- */
-@media only screen and (max-width:1024px) {
-	#stats .stat:nth-child(n) {
-		border-left: 1px solid rgba(255, 255, 255, 0.12);
-		padding-bottom: 1.5rem;
-	}
-	#stats .stat:nth-child(3n+1) {
-		border: none;
-	}
-}
-@media only screen and (max-width:768px) {
-	#stats .stat:nth-child(n) {
-		border-left: 1px solid rgba(255, 255, 255, 0.12);
-	}
-	#stats .stat:nth-child(2n+1) {
-		border: none;
-	}
-}
-@media only screen and (max-width:600px) {
-	#stats .stat:nth-child(n) {
-		border: none;
-	}
-}
-
 
 /** 
  * ===================================================================
- * 17. contact - (_layout.scss)
+ * contact - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
@@ -2391,6 +2325,7 @@ header .logo a {
 	-webkit-animation-delay: -0.16s;
 	animation-delay: -0.16s;
 }
+
 @-webkit-keyframes sk-bouncedelay {
 	0%, 80%, 100% {
 		-webkit-transform: scale(0);
@@ -2416,64 +2351,6 @@ header .logo a {
 	}
 }
 
-
-/** 
- * ===================================================================
- * 18. footer - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-footer {
-	padding-bottom: 3rem;
-	font-size: 1.4rem;
-	font-family: "poppins-regular", sans-serif;
-}
-footer a, footer a:visited {
-	color: #FFFFFF;
-}
-footer a:hover, footer a:focus {
-	color: green;
-}
-footer .row {
-	max-width: 900px;
-}
-footer .social {
-	text-align: right;
-}
-footer .footer-social {
-	display: inline-block;
-	font-size: 2.1rem;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	top: -.3rem;
-}
-footer .footer-social li {
-	display: inline-block;
-	margin: 0 12px;
-	padding: 0;
-}
-footer .footer-social li a {
-	color: #FFFFFF;
-}
-footer .copyright span {
-	display: inline-block;
-}
-footer .copyright span::after {
-	content: "|";
-	display: inline-block;
-	padding: 0 1rem 0 1.2rem;
-	color: rgba(255, 255, 255, 0.1);
-}
-footer .copyright span:last-child::after {
-	display: none;
-}
-
-/**
- * responsive:
- * footer
- * -------------------------------------------------------------------
- */
 @media only screen and (max-width:768px) {
 	footer {
 		text-align: center;
